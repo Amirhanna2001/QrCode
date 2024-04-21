@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.17.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="QRCoder" Version="1.4.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QrCode.DB\QrCode.DB.csproj" />
+    <ProjectReference Include="..\QrCode.UnitOfWork\QrCode.UnitOfWork.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="QrCode.API">
+      <HintPath>..\QrCode\obj\Debug\net6.0\QrCode.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

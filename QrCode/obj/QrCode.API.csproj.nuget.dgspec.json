@@ -1,0 +1,432 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode\\QrCode.API.csproj": {}
+  },
+  "projects": {
+    "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.DB\\QrCode.DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.DB\\QrCode.DB.csproj",
+        "projectName": "QrCode.DB",
+        "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.DB\\QrCode.DB.csproj",
+        "packagesPath": "C:\\Users\\amirh\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Repository\\QrCode.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Repository\\QrCode.Repository.csproj",
+        "projectName": "QrCode.Repository",
+        "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Repository\\QrCode.Repository.csproj",
+        "packagesPath": "C:\\Users\\amirh\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.DB\\QrCode.DB.csproj": {
+                "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.DB\\QrCode.DB.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Services\\QrCode.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Services\\QrCode.Services.csproj",
+        "projectName": "QrCode.Services",
+        "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Services\\QrCode.Services.csproj",
+        "packagesPath": "C:\\Users\\amirh\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.DB\\QrCode.DB.csproj": {
+                "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.DB\\QrCode.DB.csproj"
+              },
+              "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.UnitOfWork\\QrCode.UnitOfWork.csproj": {
+                "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.UnitOfWork\\QrCode.UnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.17.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.32.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.UnitOfWork\\QrCode.UnitOfWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.UnitOfWork\\QrCode.UnitOfWork.csproj",
+        "projectName": "QrCode.UnitOfWork",
+        "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.UnitOfWork\\QrCode.UnitOfWork.csproj",
+        "packagesPath": "C:\\Users\\amirh\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.UnitOfWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Repository\\QrCode.Repository.csproj": {
+                "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Repository\\QrCode.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode\\QrCode.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode\\QrCode.API.csproj",
+        "projectName": "QrCode.API",
+        "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode\\QrCode.API.csproj",
+        "packagesPath": "C:\\Users\\amirh\\.nuget\\packages\\",
+        "outputPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\amirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Repository\\QrCode.Repository.csproj": {
+                "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Repository\\QrCode.Repository.csproj"
+              },
+              "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Services\\QrCode.Services.csproj": {
+                "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.Services\\QrCode.Services.csproj"
+              },
+              "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.UnitOfWork\\QrCode.UnitOfWork.csproj": {
+                "projectPath": "F:\\Work\\Interns\\QrCodeApp\\QrCode\\Backend\\QrCode\\QrCode.UnitOfWork\\QrCode.UnitOfWork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[110.2.0, )"
+            },
+            "ServiceStack.Interfaces": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
